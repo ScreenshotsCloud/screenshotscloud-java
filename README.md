@@ -6,7 +6,7 @@ Get high quality screenshots using a real browser in seconds using our reliable 
 
 ## Installation
 
-Use the `Urlkit.java` class to implement ScreenshotsCloud functionality in your Java project.
+Use the `Screenshotscloud.java` class to implement ScreenshotsCloud functionality in your Java project.
 
 Once installed you can generate screenshots as follows:
 
@@ -19,7 +19,7 @@ public class Test {
 		String apiKey = "SCREENSHOTSCLOUD_KEY";
 		String apiSecret = "SCREENSHOTSCLOUD_SECRET";
 
-		Urlkit screenshotscloud = new Urlkit(apiKey, apiSecret);
+		Screenshotscloud screenshotscloud = new Screenshotscloud(apiKey, apiSecret);
 
 		Map<String, Object> options = new HashMap<String, Object>();
 		options.put("url", "bbc.com/news");
